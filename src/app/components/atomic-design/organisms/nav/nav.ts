@@ -9,5 +9,8 @@ import { ItemMenu } from "../../atoms/item-menu/item-menu";
   styleUrl: './nav.css'
 })
 export class Nav {
-
+  mainMenuItems: ItemMenu[] = [
+    { label: 'Inicio', link: '/', clase: 'nav-link' },
+    { label: 'Proyectos', link: '/proyectos', clase: 'nav-link' }
+  ]
 }

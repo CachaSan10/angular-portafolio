@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ItemMenu } from "../../atoms/item-menu/item-menu";
 import { CommonModule } from '@angular/common';
 
@@ -9,9 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './grupo-enlaces-menu.css'
 })
 export class GrupoEnlacesMenu {
- navItem: ItemMenu[] =[
-  {label: 'Inicio',link:'/', clase: "nav-link"},
-  {label: 'Proyectos',link:'/Proyectos', clase: "nav-link"},
-
-]
+ @Input() navItems: ItemMenu[] =[]
 }
