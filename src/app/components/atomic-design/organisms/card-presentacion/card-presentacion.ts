@@ -8,5 +8,8 @@ import { Imagen } from "../../atoms/imagen/imagen";
   styleUrl: './card-presentacion.css'
 })
 export class CardPresentacion {
-
+  Imagen = {
+    urlImagen: "mis-fotos/perfil.jpg",
+    altImagen: "Mi fotografia"
+  }
 }

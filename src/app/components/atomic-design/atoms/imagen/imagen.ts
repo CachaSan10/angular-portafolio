@@ -9,7 +9,7 @@ import { Component,Input } from '@angular/core';
 })
 export class Imagen {
 @Input() urlImagen:string="";
-@Input() alt:string="";
+@Input() altImagen:string="";
 @Input() clase:string="";
 
 }

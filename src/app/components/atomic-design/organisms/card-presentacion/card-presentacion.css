@@ -2,15 +2,13 @@
     text-align: justify;
 }
 
+.card {
+    border-style: none;
+}
+
 .mi-card-presentacion:hover {
     border: 2px solid red;
     transition: border-color 0.3s ease, border-width 0.3s ease;
-}
-
-.imagen-container {
-    opacity: 0; 
-    transform: scale(0.9); 
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
 .mi-card-presentacion:hover .imagen-container{
@@ -21,3 +19,4 @@
 .mi-card-presentacion .col-md-8 {
     transition: width 0.4s ease-in-out; 
 }
+

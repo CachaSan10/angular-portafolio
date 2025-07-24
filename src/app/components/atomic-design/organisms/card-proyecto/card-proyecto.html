@@ -1,0 +1,23 @@
+<div class="card-flip-container card-proyecto"> <div class="card-flip"> 
+    <div class="card  card-front p-3">
+     
+     <app-imagen [urlImagen]="urlImagen" [altImagen]="altImg" clase="proyecto-img card-img-top"></app-imagen>
+ <div class="card-body">
+        <h5 class="card-title text-center">{{tituloProyecto}}</h5>
+            <p class="card-text">{{descripcionProyecto}}</p>
+  <div class="d-flex justify-content-center mt-4">
+  <i class="fab fa-js fa-2x mx-2" title="JavaScript"></i> <i class="fab fa-angular fa-2x mx-2" title="Angular"></i>
+  <i class="fab fa-node-js fa-2x mx-2" title="Node.js"></i>
+  <i class="fab fa-python fa-2x mx-2" title="Python"></i>
+  <i class="fab fa-github fa-2x mx-2" title="GitHub"></i>
+  </div>
+      </div>
+    </div>
+
+    <div class="card card-back p-3 text-center d-flex flex-column justify-content-center align-items-center">
+      <h5 class="card-title mb-3">Enlaces del Proyecto</h5>
+        <app-grupo-enlace-proyecto [enlacesProyecto]="urlProyecto"></app-grupo-enlace-proyecto>
+    </div>
+
+  </div>
+</div>

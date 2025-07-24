@@ -5,7 +5,13 @@
     </div>
 
     <div class="d-flex flex-column align-items-center">
-        <h1 class="text-center mt-5"> Mis Proyectos</h1> 
-        <app-card-presentacion class="mx-auto"></app-card-presentacion> 
+        <h1 class="text-center mt-5"> Mis Proyectos</h1>
+        <app-card-proyecto
+        [tituloProyecto]="Proyectos[0].titulo"
+        [descripcionProyecto]="Proyectos[0].descripcion"
+        [urlImagen]="Proyectos[0].urlImagen"
+        [altImg]="Proyectos[0].altImg"
+        [urlProyecto]="Proyectos[0].urlProyecto"
+        ></app-card-proyecto>
     </div>
 </div>
